@@ -24,7 +24,7 @@ return [
 ];
 ```
 
-You can then send an email as follows:
+You can then send an SMS as follows:
 
 ```php
 Yii::$app->sms->compose('Your awesome SMS')
