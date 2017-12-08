@@ -1,6 +1,6 @@
 <?php
 
-namespace mikk150\sms\messente;
+namespace mikk150\messentesms;
 
 use yii\httpclient\Client;
 use mikk150\sms\BaseMessage;
@@ -26,7 +26,7 @@ class Provider extends BaseProvider
     /**
      * @var string the default class name of the new message instances created by [[createMessage()]]
      */
-    public $messageClass = 'mikk150\sms\messente\Message';
+    public $messageClass = 'mikk150\messentesms\Message';
 
     private $_client;
 

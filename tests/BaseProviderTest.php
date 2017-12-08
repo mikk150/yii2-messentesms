@@ -2,8 +2,8 @@
 
 namespace yiiunit;
 
-use mikk150\sms\messente\Message;
-use mikk150\sms\messente\Provider;
+use mikk150\messentesms\Message;
+use mikk150\messentesms\Provider;
 use yii\httpclient\Client;
 use yii\httpclient\Transport;
 use yii\httpclient\Response;

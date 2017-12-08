@@ -16,7 +16,7 @@ return [
     //....
     'components' => [
         'sms' => [
-            'class' => 'mikk150\sms\messente\Provider',
+            'class' => 'mikk150\messentesms\Provider',
             'username' => 'messenteusername',
             'password' => 'messentepassword',
         ],

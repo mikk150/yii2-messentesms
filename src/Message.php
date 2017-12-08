@@ -1,6 +1,6 @@
 <?php
 
-namespace mikk150\sms\messente;
+namespace mikk150\messentesms;
 
 /**
  * Test Message class.
