@@ -51,7 +51,7 @@ class Provider extends BaseProvider
     {
         $requests = [];
         foreach ((array) $message->getTo() as $recipient) {
-            $requests[] = $this->getClient()->post('send_sms', [
+            $requests[] = $this->getClient()->get('send_sms', [
                 'username' => $this->username,
                 'password' => $this->password,
                 'from' => $message->getFrom(),
